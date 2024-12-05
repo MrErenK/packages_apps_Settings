@@ -123,6 +123,12 @@
             android:title="@string/heads_up_notifications"
             android:fragment="com.android.settings.halcyon.fragments.HeadsUpSettings"/>
 
+        <com.android.settings.halcyon.preference.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
         <com.android.settingslib.RestrictedPreference
             android:key="zen_mode_notifications"
             android:order="17"
